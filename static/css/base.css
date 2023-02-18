@@ -1,0 +1,109 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    background-color: #fff9f4;
+    max-width: 800px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.head-content {
+    background-color: #ffedce;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.head-content a {
+    text-decoration: none;
+    color: grey;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffedce;
+    margin: 0px auto;
+}
+
+.main-content {
+    padding: 10px;
+}
+
+.task-wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border-top: 1px solid black;
+}
+
+.task-wrapper a {
+    text-decoration: none;
+}
+
+.create-task a {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: green;
+}
+
+.search-box {
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.search-box form {
+    display: flex;
+}
+
+.task-completed {
+    color: grey;
+}
+
+.task.incompleted {
+    color: green;
+}
+
+.task-delete {
+    color: red;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 95%;
+    padding: 8px;
+}
+
+.button {
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.header-bar a {
+    color: grey;
+    text-decoration: none;
+}
+
+.body-form {
+    margin: 10px;
+}

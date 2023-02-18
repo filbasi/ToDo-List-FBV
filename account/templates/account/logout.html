@@ -1,0 +1,10 @@
+{% extends 'todo_app/base.html' %}
+{% block content %}
+
+Do you want to logout?
+<form method="POST">
+    {% csrf_token %}
+    <input type="submit" value="submit">
+</form>
+
+{% endblock %}
